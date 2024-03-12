@@ -11,7 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                sh 'pytest test.py
+                sh 'pytest test.py'
             }
         }
     }
